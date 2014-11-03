@@ -14,7 +14,7 @@
                 content: [
                     { tag : 'h3', content : 'Subscribe to our newsletter.' },
                     { tag : 'hr' },
-                    { tag : 'p', content : 'Subscribe to our newsletter and get exclusive details you wont find anywhere else straight to your inbox!' }
+                    { tag : 'p', content : 'Subscribe to our newsletter and get exclusive deals you wont find anywhere else straight to your inbox!' }
                 ]
               },
               {
