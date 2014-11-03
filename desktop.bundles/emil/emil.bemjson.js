@@ -26,7 +26,8 @@
                         content : [
                             {
                                 block : 'input',
-                                mods : { theme : 'normal' }
+                                mods : { theme : 'default' },
+                                placeholder : 'enter your email address'
                             },
                             {
                                 block : 'button',
