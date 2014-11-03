@@ -7,11 +7,9 @@
 
 .email__address .button
 {
-	float: right;
-
 	color: #3d3d3d;
 	padding: 6px 20px;
 	border-radius: 4px;
-	background: -webkit-gradient(linear, left top, left bottom, from(#e5e5e5), to(#c4c4c4));
+	background: linear-gradient(to bottom, #e5e5e5, #c4c4c4);
 	border: none;
 }
