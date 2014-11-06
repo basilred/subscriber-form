@@ -12,10 +12,15 @@ modules.define('subscriber', ['i-bem__dom'], function (provide, BEMDOM) {
 
 		_onSubmit: function() {
 			console.log('Obrabotka.');
-            var email = this.findBlockInside({block: 'input'});
-            console.log(email.getVal());
+            var email = this.findBlockInside({block: 'input'}),
+            	success = this.findBlockInside({block: 'success'});
+
             if (this._isEmailAddress(email.getVal())) {
-                console.log('It is true');
+            	success.delMod('invalid');
+                success.setMod('valid');
+            } else {
+            	success.delMod('valid');
+            	success.setMod('invalid');
             }
 		},
         
