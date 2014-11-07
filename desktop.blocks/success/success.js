@@ -4,6 +4,7 @@ modules.define('success', ['i-bem__dom'], function (provide, BEMDOM) {
 		onSetMod: {
 			'valid': function() {
 				this.elem('typemessage').text('thanks, your address has been added');
+				// this.elem('typemessage').text(&#x2714;);
 				console.log('Email is valid.')
 			},
 			'invalid': function() {

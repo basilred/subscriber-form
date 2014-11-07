@@ -40,7 +40,7 @@
                         content : [
                             {
                                 elem : 'sign',
-                                tag : 'icon'
+                                tag : 'span'
                             },
                             {
                                 elem : 'typemessage',
