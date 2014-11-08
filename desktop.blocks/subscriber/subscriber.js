@@ -17,9 +17,9 @@ modules.define('subscriber', ['i-bem__dom'], function (provide, BEMDOM) {
 
             if (this._isEmailAddress(email.getVal())) {
             	success.delMod('invalid');
-                success.setMod('valid');
+                success.setMod('none');
             } else {
-            	success.delMod('valid');
+            	success.delMod('none');
             	success.setMod('invalid');
             }
 		},
