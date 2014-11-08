@@ -16,10 +16,8 @@ modules.define('subscriber', ['i-bem__dom'], function (provide, BEMDOM) {
             	success = this.findBlockInside({block: 'success'});
 
             if (this._isEmailAddress(email.getVal())) {
-            	success.delMod('invalid');
                 success.setMod('none');
             } else {
-            	success.delMod('none');
             	success.setMod('invalid');
             }
 		},
