@@ -1,4 +1,22 @@
-.success_valid
+.success_valid_tick
 {
+	opacity: 1;
 	color: #8fa753;
+	transition: opacity 0.5s;
+}
+
+.success_valid_tick:before
+{
+	content: '&mark;';
+}
+
+.success_valid_cross
+{
+	opacity: 1;
+	color: #d04c49;
+}
+
+.success_valid_none
+{
+	opacity: 0;
 }

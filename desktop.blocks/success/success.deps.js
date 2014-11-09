@@ -1,4 +1,4 @@
 ({
     mustDeps: [],
-    shouldDeps: [{ mods: ['valid', 'invalid'] }]
+    shouldDeps: [{ mods: ['valid'] }]
 })
