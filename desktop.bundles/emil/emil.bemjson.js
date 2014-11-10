@@ -37,6 +37,7 @@
                     },
                     {
                         block: 'success',
+                        mods: {'valid': 'none'},
                         content : [
                             {
                                 elem : 'sign',
