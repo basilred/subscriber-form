@@ -11,7 +11,7 @@ modules.define('subscriber', ['i-bem__dom'], function (provide, BEMDOM) {
 		},
 
 		_onSubmit: function() {
-			console.log('Obrabotka.');
+
             var email = this.findBlockInside({block: 'input'}),
             	success = this.findBlockInside({block: 'success'});
 
@@ -23,8 +23,10 @@ modules.define('subscriber', ['i-bem__dom'], function (provide, BEMDOM) {
 		},
         
         _isEmailAddress: function(addr) {
+            
             var pattern = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
             return addr.match(pattern);
+            
         }
 	}));
 
