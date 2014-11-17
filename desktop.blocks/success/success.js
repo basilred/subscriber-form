@@ -4,7 +4,7 @@ modules.define('success', ['i-bem__dom'], function (provide, BEMDOM) {
 		onSetMod: {
 			'valid': {
 				'tick': function() {
-					this.elem('sign').text('&copy;');
+					this.elem('sign').text('tick');
 					this.elem('typemessage').text('thanks, your address has been added');
 				},
 				

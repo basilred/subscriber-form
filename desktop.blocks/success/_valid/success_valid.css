@@ -5,11 +5,6 @@
 	transition: opacity 0.5s;
 }
 
-.success_valid_tick:before
-{
-	content: '&mark;';
-}
-
 .success_valid_cross
 {
 	opacity: 1;
