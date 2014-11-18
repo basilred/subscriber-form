@@ -14,4 +14,5 @@
 .success_valid_none
 {
 	opacity: 0;
+	transition: opacity 0.5s;
 }
