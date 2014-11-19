@@ -9,6 +9,7 @@
 {
 	opacity: 1;
 	color: #d04c49;
+	transition: opacity 0.5s;
 }
 
 .success_valid_none
